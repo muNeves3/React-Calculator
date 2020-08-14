@@ -1,4 +1,4 @@
-<p align="center"><img src="./src/assets/Screenshot_1.png"/></p>
+<p align="center"><img src="./src/assets/Screenshot_2.png"/></p>
 
 <a href="https://hopeful-leavitt-d66f42.netlify.app/"><h2>Link to the site</h2></a>
 
