@@ -29,8 +29,12 @@ function App() {
     }
   };
 
-  const clearInput = () => {
+  const clearACInput = () => {
     setInput("");
+  };
+
+  const clearCInput = () => {
+    setInput(input.substr(0, input.length - 1));
   };
 
   const add = () => {
@@ -85,6 +89,11 @@ function App() {
         </div>
 
         <div className="row">
+          <ClearButton handleClear={clearACInput} children="AC" />
+          <ClearButton handleClear={clearCInput} children="C" />
+        </div>
+
+        <div className="row">
           <Button handleClick={handleClick} number="7" />
           <Button handleClick={handleClick} number="8" />
           <Button handleClick={handleClick} number="9" />
@@ -110,10 +119,6 @@ function App() {
           <Button handleClick={addZeroToInput} number="0" />
           <Button handleClick={evaluate} number="=" />
           <Button handleClick={subtract} number="-" />
-        </div>
-
-        <div className="row">
-          <ClearButton handleClear={clearInput} children="Clear" />
         </div>
       </div>
     </div>
