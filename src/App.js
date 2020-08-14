@@ -34,7 +34,7 @@ function App() {
   };
 
   const clearCInput = () => {
-    setInput(input.substr(0, input.length - 1));
+    setInput(input.toString().slice(1));
   };
 
   const add = () => {
