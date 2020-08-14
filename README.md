@@ -1,6 +1,6 @@
 <p align="center"><img src="./src/assets/Screenshot_2.png"/></p>
 
-<a href="https://hopeful-leavitt-d66f42.netlify.app/"><h2>Link to the site</h2></a>
+<a href="https://practical-hamilton-c22290.netlify.app/"><h2>Link to the site</h2></a>
 
 ### Getting Started :computer:
 
